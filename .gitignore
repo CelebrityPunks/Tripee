@@ -1,0 +1,34 @@
+# Node / TypeScript
+node_modules/
+dist/
+build/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Tests/Coverage
+coverage/
+.nyc_output/
+
+# Lockfiles (optional—keep only one if you want)
+# package-lock.json
+# yarn.lock
+
+# MCP specific cache (if you add sqlite later)
+cache.db
